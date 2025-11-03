@@ -49,6 +49,14 @@ dW(t) infinitesimal increment of a standard Brownian Motion/Wiener Process
 # Hypothesis Test on Returns
 The Shapiro-Wilk test is a statistical test that checks if a sample of data comes from a normally distributed population
 
+null
+
+alternative
+
+        Shapiro-Wilk Test Statistic: 0.9850908331930602
+        Shapiro-Wilk Test p-value: 5.180406234455429e-10
+
+# Geometric Brownian Motion Simulations
 
 
 
