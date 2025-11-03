@@ -32,11 +32,21 @@ dW(t) infinitesimal increment of a standard Brownian Motion/Wiener Process
     start = "2023-01-01"
     end = "2025-01-01"
     df = yf.download(tickers= ticker,start=start, end=end)
-    
+  
     Output
         /tmp/ipython-input-433252377.py:9: FutureWarning: YF.download() has changed argument auto_adjust default to True
           df = yf.download(tickers= ticker,start=start, end=end)
         [*********************100%***********************]  1 of 1 completed
+
+# Returns
+
+<img width="1024" height="316" alt="download (3)" src="https://github.com/user-attachments/assets/99c9e674-759c-41e3-a172-92cad2137a92" />
+
+# Volatility
+
+<img width="1187" height="590" alt="download (4)" src="https://github.com/user-attachments/assets/01ca6eea-9ce9-4dbd-9512-d4d5d146d3e5" />
+
+
 
 
 
