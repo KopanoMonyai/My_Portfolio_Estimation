@@ -44,7 +44,8 @@ dW(t) infinitesimal increment of a standard Brownian Motion/Wiener Process
 
 # Volatility
 
-<img width="1187" height="590" alt="download (4)" src="https://github.com/user-attachments/assets/01ca6eea-9ce9-4dbd-9512-d4d5d146d3e5" />
+<img width="1187" height="290" alt="download (5)" src="https://github.com/user-attachments/assets/91f0873f-1848-4fbd-a741-9d4f3ae6ce10" />
+
 
 
 
