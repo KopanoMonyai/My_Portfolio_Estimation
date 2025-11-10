@@ -48,7 +48,7 @@ dW(t) infinitesimal increment of a standard Brownian Motion/Wiener Process
 # Call:
 
     simulate_gbm(S0, mu, sigma, T, N, num_simulations)
-    <img width="997" height="316" alt="download (9)" src="https://github.com/user-attachments/assets/ccad58c6-0006-4411-b872-d71cb44c5c1c" />
+<img width="997" height="316" alt="download (9)" src="https://github.com/user-attachments/assets/ccad58c6-0006-4411-b872-d71cb44c5c1c" />
 
 Depending upon the number of simulated paths, the converge to the actual price and the more accurate the model.
 
