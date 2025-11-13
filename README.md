@@ -48,28 +48,28 @@ Depending upon the number of simulated paths, the estimation converges to the ac
 
 
 # Price Prediction
-Taking an average of the thousand sample paths, we observe an average percentage error of -3.397625 with a scaled volatility factor of 2.5, suggest that the model on average over-estimates the price: 
+Taking an average of the thousand sample paths, we observe an average percentage error of 0.00610164 with a scaled volatility factor of 2.5, suggest that the model on average under-estimates the price: 
 <img width="996" height="316" alt="download (7)" src="https://github.com/user-attachments/assets/dc82e81a-93fc-4f3e-aad2-39120225c058" />
   
-                                    Close	Estimate
-    2020-11-12 00:00:00+02:00	11.808510	11.80851
-    2021-11-12 00:00:00+02:00	16.026600	14.31000
-    2022-11-12 00:00:00+02:00	14.334960	17.08000
-    2023-11-12 00:00:00+02:00	21.463999	22.04000
-    2024-11-12 00:00:00+02:00	30.010000	27.04000
-    2025-11-12 00:00:00+02:00	36.020000	34.26000
+                                        Close	Estimate	Error
+        2020-11-12 00:00:00+02:00	11.808510	11.80851	0.000000
+        2021-11-12 00:00:00+02:00	16.026600	14.31000	0.107109
+        2022-11-12 00:00:00+02:00	14.334960	17.08000	-0.191493
+        2023-11-12 00:00:00+02:00	21.463999	22.04000	-0.026836
+        2024-11-12 00:00:00+02:00	30.010000	27.04000	0.098967
+        2025-11-12 00:00:00+02:00	36.020000	34.26000	0.048862
 
 
 # Estimating Of New Prices
 Taking another sample path over the next 5 years, where each step is an averaged approximation while assuming constant volatility.
 <img width="1005" height="316" alt="image" src="https://github.com/user-attachments/assets/51fb6ed7-f97e-460e-8ce4-cab9f190aae7" />
-
-
-    Year	
-    2025	36.75
-    2026	46.20
-    2027	57.93
-    2028	72.61
+    
+                0	Error
+    Year		
+    2025	36.75	0.006102
+    2026	46.20	0.006102
+    2027	57.93	0.006102
+    2028	72.61	0.006102
 
 
 
