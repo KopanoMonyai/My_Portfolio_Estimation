@@ -49,7 +49,9 @@ Depending upon the number of simulated paths, the estimation converges to the ac
 
 # Price Prediction
 Taking an average of the thousand sample paths, we observe an average percentage error of 0.00610164 with a scaled volatility factor of 2.5, suggest that the model on average under-estimates the price: 
+
 <img width="996" height="316" alt="download (7)" src="https://github.com/user-attachments/assets/dc82e81a-93fc-4f3e-aad2-39120225c058" />
+
   
                                         Close	Estimate	Error
         2020-11-12 00:00:00+02:00	11.808510	11.80851	0.000000
@@ -62,6 +64,7 @@ Taking an average of the thousand sample paths, we observe an average percentage
 
 # Estimating Of New Prices
 Taking another sample path over the next 5 years, where each step is an averaged approximation while assuming constant volatility.
+
 <img width="1005" height="316" alt="image" src="https://github.com/user-attachments/assets/51fb6ed7-f97e-460e-8ce4-cab9f190aae7" />
     
                 0	Error
